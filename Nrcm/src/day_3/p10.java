@@ -1,0 +1,16 @@
+package day_3;
+
+public class p10 {
+	
+	public static void main(String[] args) {
+		int[][] arr1 = {{2,5,6,7},{6,9,8,9}};
+		for (int i = 0; i < arr1.length;   i++) {
+			for (int j = 0; i < arr1[0].length;   j++) {
+				System.out.println(arr1[i][j]);
+			}
+			System.out.println();
+			
+		}
+	}
+
+}
